@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arc-decision-reasoning"
+version = "0.1.0"
+description = "ARC reasoning-style transfer experiments with Gemini and selectable decision models."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "datasets>=2.18",
+    "google-genai>=1.0.0",
+    "PyYAML>=6.0",
+    "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+laya = ["laya>=0.4.11"]
+vllm = ["vllm"]
+
+[project.scripts]
+arc-decision = "arc_decision.cli:main"
+arc-decision-finetune = "arc_decision.finetuning:main"
+arc-decision-evaluate-cot = "arc_decision.cot_evaluation:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
