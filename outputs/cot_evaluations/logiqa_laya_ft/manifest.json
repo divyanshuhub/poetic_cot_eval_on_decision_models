@@ -1,0 +1,37 @@
+{
+  "config": {
+    "dataset_config": "default",
+    "decision_model": "laya",
+    "force_regenerate": false,
+    "laya_finetuned_checkpoint": "/home/gpuuser7/gpuuser7_a/Divyanshu/GSM8K/arc_decision_reasoning/outputs/finetunes/laya_logiqa_default/checkpoint",
+    "limit": null,
+    "max_retries": 2,
+    "output_dir": "/home/gpuuser7/gpuuser7_a/Divyanshu/GSM8K/arc_decision_reasoning/outputs/cot_evaluations/logiqa_laya_ft",
+    "request_timeout": 60.0,
+    "resume": false,
+    "split": "test",
+    "strict": false
+  },
+  "cot_csv_evaluation": {
+    "conditions": [
+      "question_only",
+      "standard_reasoning",
+      "poisoned_reasoning",
+      "poetic_reasoning"
+    ],
+    "dataset_config": "default",
+    "dataset_id": "lucasmccabe/logiqa",
+    "dataset_name": "logiqa",
+    "decision_model": "laya",
+    "input_csv": "/home/gpuuser7/gpuuser7_a/Divyanshu/GSM8K/arc_decision_reasoning/outputs/vllm_cot/LogiQA_default_test.csv",
+    "input_csv_sha256": "7063901fcf638fc9a33c89ae15ba437f82fd91eb618480c48e6ac37b907e465e",
+    "limit": null,
+    "model_identity": "/home/gpuuser7/gpuuser7_a/Divyanshu/GSM8K/arc_decision_reasoning/outputs/finetunes/laya_logiqa_default/checkpoint",
+    "selected_rows": 651,
+    "split": "test",
+    "standard_final_answer_removed_from_state": true
+  },
+  "created_at": "2026-10-29T11:21:58.623956+00:00",
+  "run_id": "logiqa_laya_ft",
+  "schema_version": 1
+}

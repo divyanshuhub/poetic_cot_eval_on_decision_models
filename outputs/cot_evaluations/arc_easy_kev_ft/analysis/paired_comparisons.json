@@ -1,0 +1,48 @@
+{
+  "bootstrap_samples": 2000,
+  "comparisons": {
+    "poetic_reasoning_minus_poisoned_reasoning": {
+      "ci_high_pp": 66.25298329355608,
+      "ci_low_pp": 62.004773269689736,
+      "difference_pp": 64.10501193317423,
+      "sample_size": 2095
+    },
+    "poetic_reasoning_minus_question_only": {
+      "ci_high_pp": 1.9570405727923628,
+      "ci_low_pp": 0.8591885441527447,
+      "difference_pp": 1.3842482100238664,
+      "sample_size": 2095
+    },
+    "poetic_reasoning_minus_standard_reasoning": {
+      "ci_high_pp": -0.0954653937947494,
+      "ci_low_pp": -0.5250596658711217,
+      "difference_pp": -0.2863961813842482,
+      "sample_size": 2095
+    },
+    "poisoned_reasoning_minus_question_only": {
+      "ci_high_pp": -60.47732696897374,
+      "ci_low_pp": -64.86873508353221,
+      "difference_pp": -62.72076372315036,
+      "sample_size": 2095
+    },
+    "poisoned_reasoning_minus_standard_reasoning": {
+      "ci_high_pp": -62.29116945107399,
+      "ci_low_pp": -66.53937947494033,
+      "difference_pp": -64.39140811455847,
+      "sample_size": 2095
+    },
+    "standard_reasoning_minus_question_only": {
+      "ci_high_pp": 2.243436754176611,
+      "ci_low_pp": 1.1455847255369929,
+      "difference_pp": 1.6706443914081146,
+      "sample_size": 2095
+    }
+  },
+  "seed": 7,
+  "shared_conditions": [
+    "question_only",
+    "standard_reasoning",
+    "poisoned_reasoning",
+    "poetic_reasoning"
+  ]
+}

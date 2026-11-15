@@ -1,0 +1,5 @@
+condition,jev_accuracy_%,jev_diff_pp,kev_ft_accuracy_%,kev_ft_diff_pp,laya_ft_accuracy_%,laya_ft_diff_pp
+question_only,76.36,0.0,87.0,0.0,53.33,0.0
+standard_reasoning,97.75,21.39,96.01,9.01,66.84,13.51
+poisoned_reasoning,65.51,-10.85,39.3,-47.7,41.45,-11.87
+poetic_reasoning,94.06,17.71,93.65,6.65,58.75,5.42

@@ -1,0 +1,8 @@
+{
+  "created_at": "2026-10-29T12:14:11.039897+00:00",
+  "dataset_fingerprint": "7063901fcf638fc9a33c89ae15ba437f82fd91eb618480c48e6ac37b907e465e",
+  "datasets_version": "vllm_cot_csv",
+  "record_count": 651,
+  "records_sha256": "5e77c2aa7584f6151ef815adec64d75cac263de9268e8fcc46b882b1b1b8da52",
+  "skipped": []
+}

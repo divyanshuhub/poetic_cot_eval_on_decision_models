@@ -1,0 +1,13 @@
+dataset,run_name,model_run,stage,variant,latency_count,latency_mean_ms,latency_median_ms,latency_p95_ms,input_token_count,input_token_mean,output_token_count,output_token_mean
+arc_easy,arc_easy_jev,jev,decision,question_only,2095,485.72505966587113,440.0,622.0,2095,476.0109785202864,2095,45.98997613365155
+arc_easy,arc_easy_jev,jev,decision,standard_reasoning,2095,452.5556085918855,442.0,532.0,2095,576.9575178997613,2095,45.98997613365155
+arc_easy,arc_easy_jev,jev,decision,poisoned_reasoning,2095,453.3522673031026,441.0,529.0,2095,628.8505966587112,2095,45.98997613365155
+arc_easy,arc_easy_jev,jev,decision,poetic_reasoning,2095,454.01193317422434,440.0,528.0,2095,525.0501193317423,2095,45.98997613365155
+arc_easy,arc_easy_kev_ft,kev_ft,decision,question_only,2095,51.378042959427205,50.0,58.0,2095,135.4486873508353,2095,61.61909307875895
+arc_easy,arc_easy_kev_ft,kev_ft,decision,standard_reasoning,2095,61.94844868735083,58.0,72.0,2095,228.6396181384248,2095,60.07255369928401
+arc_easy,arc_easy_kev_ft,kev_ft,decision,poisoned_reasoning,2095,68.91408114558473,66.0,78.0,2095,279.2768496420048,2095,67.2854415274463
+arc_easy,arc_easy_kev_ft,kev_ft,decision,poetic_reasoning,2095,55.44248210023866,56.0,63.0,2095,182.4066825775656,2095,60.4472553699284
+arc_easy,arc_easy_laya_ft,laya_ft,decision,question_only,2095,33.614797136038185,25.0,32.0,2095,145.90501193317422,2095,0.0
+arc_easy,arc_easy_laya_ft,laya_ft,decision,standard_reasoning,2095,26.45680190930788,26.0,32.0,2095,243.05011933174225,2095,0.0
+arc_easy,arc_easy_laya_ft,laya_ft,decision,poisoned_reasoning,2095,26.66252983293556,26.0,33.0,2095,294.6372315035799,2095,0.0
+arc_easy,arc_easy_laya_ft,laya_ft,decision,poetic_reasoning,2095,26.280668257756563,26.0,32.0,2095,198.0715990453461,2095,0.0

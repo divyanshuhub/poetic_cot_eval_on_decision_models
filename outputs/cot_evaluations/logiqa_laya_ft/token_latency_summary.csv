@@ -1,0 +1,5 @@
+stage,variant,latency_count,latency_mean_ms,latency_median_ms,latency_p95_ms,input_token_count,input_token_mean,output_token_count,output_token_mean
+decision,question_only,651,45.153609831029186,29.0,31.0,651,335.7572964669739,651,0.0
+decision,standard_reasoning,608,29.932565789473685,30.0,32.0,608,510.58223684210526,608,0.0
+decision,poisoned_reasoning,608,29.949013157894736,30.0,32.0,608,510.4983552631579,608,0.0
+decision,poetic_reasoning,590,29.464406779661015,29.0,31.0,590,407.3406779661017,590,0.0

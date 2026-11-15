@@ -1,0 +1,37 @@
+{
+  "config": {
+    "dataset_config": "all",
+    "decision_model": "kev",
+    "force_regenerate": false,
+    "laya_finetuned_checkpoint": null,
+    "limit": null,
+    "max_retries": 2,
+    "output_dir": "/home/gpuuser7/gpuuser7_a/Divyanshu/GSM8K/arc_decision_reasoning/outputs/cot_evaluations/typed_decisions_kev_ft",
+    "request_timeout": 60.0,
+    "resume": false,
+    "split": "test",
+    "strict": false
+  },
+  "cot_csv_evaluation": {
+    "conditions": [
+      "question_only",
+      "standard_reasoning",
+      "poisoned_reasoning",
+      "poetic_reasoning"
+    ],
+    "dataset_config": "all",
+    "dataset_id": "LocalLLaMA/typed-decisions",
+    "dataset_name": "typed_decisions",
+    "decision_model": "kev",
+    "input_csv": "/home/gpuuser7/gpuuser7_a/Divyanshu/GSM8K/arc_decision_reasoning/outputs/vllm_cot/TypedDecisions_all_test.csv",
+    "input_csv_sha256": "25bc7e618d3584e6a6df034c0b268cea765f7794bb23885d9da78f5aac2a1c3b",
+    "limit": null,
+    "model_identity": "/home/gpuuser7/gpuuser7_a/Divyanshu/GSM8K/arc_decision_reasoning/outputs/finetunes/kev_typed_decisions_all/checkpoint",
+    "selected_rows": 1800,
+    "split": "test",
+    "standard_final_answer_removed_from_state": true
+  },
+  "created_at": "2026-10-28T11:11:30.535728+00:00",
+  "run_id": "typed_decisions_kev_ft",
+  "schema_version": 1
+}

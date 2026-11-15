@@ -1,0 +1,13 @@
+dataset,run_name,model_run,stage,variant,latency_count,latency_mean_ms,latency_median_ms,latency_p95_ms,input_token_count,input_token_mean,output_token_count,output_token_mean
+typed_decisions,typed_decisions_jev,jev,decision,question_only,1800,487.1644444444444,436.0,551.0,1800,758.3527777777778,1800,45.70777777777778
+typed_decisions,typed_decisions_jev,jev,decision,standard_reasoning,1202,447.7088186356073,435.0,523.0,1202,855.9783693843594,1202,45.83194675540766
+typed_decisions,typed_decisions_jev,jev,decision,poisoned_reasoning,1080,444.8083333333333,434.0,517.0,1080,905.874074074074,1080,46.20740740740741
+typed_decisions,typed_decisions_jev,jev,decision,poetic_reasoning,1080,447.1972222222222,435.5,528.0,1080,820.5,1080,45.61296296296296
+typed_decisions,typed_decisions_kev_ft,kev_ft,decision,question_only,1800,81.00555555555556,78.0,104.0,1800,377.18944444444446,1800,71.94944444444444
+typed_decisions,typed_decisions_kev_ft,kev_ft,decision,standard_reasoning,1202,93.26871880199668,98.0,116.0,1202,467.4209650582363,1202,71.59234608985025
+typed_decisions,typed_decisions_kev_ft,kev_ft,decision,poisoned_reasoning,1080,99.47685185185183,103.0,117.0,1080,516.2407407407408,1080,73.19537037037037
+typed_decisions,typed_decisions_kev_ft,kev_ft,decision,poetic_reasoning,1080,89.575,92.0,115.0,1080,435.7564814814815,1080,71.07962962962964
+typed_decisions,typed_decisions_laya_ft,laya_ft,decision,question_only,1800,32.11,26.0,27.0,1800,384.1177777777778,1800,0.0
+typed_decisions,typed_decisions_laya_ft,laya_ft,decision,standard_reasoning,1202,25.67720465890183,26.0,27.0,1202,452.9525790349418,1202,0.0
+typed_decisions,typed_decisions_laya_ft,laya_ft,decision,poisoned_reasoning,1080,25.737962962962964,26.0,27.0,1080,475.3944444444445,1080,0.0
+typed_decisions,typed_decisions_laya_ft,laya_ft,decision,poetic_reasoning,1080,25.64444444444445,26.0,27.0,1080,436.35925925925926,1080,0.0

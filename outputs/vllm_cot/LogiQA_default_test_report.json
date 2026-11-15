@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-29T09:22:41.524735+00:00",
+  "run_status": "completed",
+  "content_status": "partial",
+  "backend": "gemini",
+  "dataset": {
+    "name": "logiqa",
+    "type": "default",
+    "config": "default",
+    "split": "test"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "output_csv": "/home/gpuuser7/gpuuser7_a/Divyanshu/GSM8K/arc_decision_reasoning/outputs/vllm_cot/LogiQA_default_test.csv",
+  "total_rows": 651,
+  "row_counts": {
+    "complete": 590,
+    "partial": 18,
+    "empty": 43
+  },
+  "rationale_cells": {
+    "standard_cot": {
+      "filled": 608,
+      "blank": 43
+    },
+    "poisoned_cot": {
+      "filled": 608,
+      "blank": 43
+    },
+    "poetic_cot": {
+      "filled": 590,
+      "blank": 61
+    },
+    "total": {
+      "filled": 1806,
+      "blank": 147
+    }
+  },
+  "max_attempts": 3,
+  "error": null
+}

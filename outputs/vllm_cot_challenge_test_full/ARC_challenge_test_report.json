@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-22T22:40:05.009307+00:00",
+  "run_status": "completed",
+  "content_status": "partial",
+  "dataset": {
+    "type": "challenge",
+    "config": "ARC-Challenge",
+    "split": "test"
+  },
+  "model": "google/gemma-3-27b-it",
+  "output_csv": "/home/gpuuser7/gpuuser7_a/Divyanshu/GSM8K/arc_decision_reasoning/outputs/vllm_cot_challenge_test_full/ARC_challenge_test.csv",
+  "total_rows": 1172,
+  "row_counts": {
+    "complete": 949,
+    "partial": 154,
+    "empty": 69
+  },
+  "rationale_cells": {
+    "standard_cot": {
+      "filled": 1103,
+      "blank": 69
+    },
+    "poisoned_cot": {
+      "filled": 967,
+      "blank": 205
+    },
+    "poetic_cot": {
+      "filled": 1084,
+      "blank": 88
+    },
+    "total": {
+      "filled": 3154,
+      "blank": 362
+    }
+  },
+  "max_attempts": 5,
+  "error": null
+}

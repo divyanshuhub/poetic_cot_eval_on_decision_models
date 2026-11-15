@@ -1,0 +1,13 @@
+dataset,run_name,model_run,stage,variant,latency_count,latency_mean_ms,latency_median_ms,latency_p95_ms,input_token_count,input_token_mean,output_token_count,output_token_mean
+logiqa,logiqa_jev,jev,decision,question_only,651,686.0184331797235,427.0,2761.0,651,671.447004608295,651,46.0
+logiqa,logiqa_jev,jev,decision,standard_reasoning,608,435.01480263157896,428.0,474.0,608,1037.9802631578948,608,46.0
+logiqa,logiqa_jev,jev,decision,poisoned_reasoning,608,429.94901315789474,425.0,472.0,608,1048.3207236842106,608,46.0
+logiqa,logiqa_jev,jev,decision,poetic_reasoning,590,429.7830508474576,424.0,465.0,590,746.477966101695,590,46.0
+logiqa,logiqa_kev_ft,kev_ft,decision,question_only,651,80.33026113671275,74.0,110.0,651,330.7956989247312,651,74.47465437788019
+logiqa,logiqa_kev_ft,kev_ft,decision,standard_reasoning,608,128.46052631578948,121.0,161.0,608,688.0115131578947,608,74.44901315789474
+logiqa,logiqa_kev_ft,kev_ft,decision,poisoned_reasoning,608,127.83059210526316,120.0,154.0,608,698.7203947368421,608,74.45394736842105
+logiqa,logiqa_kev_ft,kev_ft,decision,poetic_reasoning,590,86.72203389830509,81.0,110.0,590,403.2322033898305,590,74.47796610169492
+logiqa,logiqa_laya_ft,laya_ft,decision,question_only,651,45.15360983102919,29.0,31.0,651,335.7572964669739,651,0.0
+logiqa,logiqa_laya_ft,laya_ft,decision,standard_reasoning,608,29.932565789473685,30.0,32.0,608,510.58223684210526,608,0.0
+logiqa,logiqa_laya_ft,laya_ft,decision,poisoned_reasoning,608,29.949013157894736,30.0,32.0,608,510.4983552631579,608,0.0
+logiqa,logiqa_laya_ft,laya_ft,decision,poetic_reasoning,590,29.46440677966101,29.0,31.0,590,407.3406779661017,590,0.0
